@@ -110,7 +110,7 @@ def checkOrderUpdates(etsy_access_token, etsy_refresh_token, api_keystring, payl
 ################################### Begin #####################################
 # Read Config File
 config = configparser.ConfigParser()
-config.read('/home/jackie/scripts/obxjack_etsyv3/EtsyV3API.conf')
+config.read('EtsyV3API.conf')
 
 # Set Variables
 DBUser = config['MYSQL_CONNECTION']['Username']

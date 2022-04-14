@@ -95,7 +95,7 @@ def refreshToken(user_id,shop_id,api_keystring,etsy_refresh_token,payload):
     
     # Read Config File
     config = configparser.ConfigParser()
-    config.read('/home/jackie/scripts/obxjack_etsyv3/EtsyV3API.conf')
+    config.read('EtsyV3API.conf')
     # Set Global Variables
     oAuth_URL = config['CONFIG']['oAuth_URL']
     
