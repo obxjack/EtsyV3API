@@ -12,7 +12,7 @@ from time import sleep
 
 # Read Config File
 config = configparser.ConfigParser()
-config.read('/home/jackie/scripts/obxjack_etsyv3/EtsyV3API.conf')
+config.read('EtsyV3API.conf')
 
 # Set Global Variables
 #PingURL = config['CONFIG']['Ping_URL']
